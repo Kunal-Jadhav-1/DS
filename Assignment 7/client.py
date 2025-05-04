@@ -22,9 +22,9 @@ def main():
     while True:
         print("\nChoose an operation:")
         print("1. Access calculator ")
-        print("5. Exit")
+        print("2. Exit")
 
-        choice = input("Enter choice (1-5): ")
+        choice = input("Enter choice (1-2): ")
 
         match choice:
             case '1':
